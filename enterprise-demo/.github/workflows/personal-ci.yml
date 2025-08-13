@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - surya-testing
+  pull:
+    branches:
+      - surya-testing
   workflow_dispatch:
 
 jobs:
