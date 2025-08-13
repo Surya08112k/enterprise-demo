@@ -36,6 +36,7 @@ jobs:
 
       # 4️⃣ Install dependencies and package the app
       - name: Build with Maven
+        working-directory: enterprise-demo
         run: mvn clean install
 
       # 5️⃣ Run the Spring Boot application (for testing startup)
