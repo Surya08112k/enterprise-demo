@@ -3,10 +3,10 @@ name: Personal Branch CI
 on:
   push:
     branches:
-      - surya-testing
+      - [surya-testing]
   pull:
     branches:
-      - surya-testing
+      - [surya-testing]
   workflow_dispatch:
 
 jobs:
