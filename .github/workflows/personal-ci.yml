@@ -3,10 +3,10 @@ name: Java Spring Boot CI Pipeline
 on:
   push:        # Trigger when code is pushed
     branches:
-      - '**'   # Matches all branches
+      - 'murali-testing'   # Matches all branches
   pull_request: # Trigger when PR is opened or updated
     branches:
-      - '**'   # Matches all branches
+      - 'murali-testing'   # Matches all branches
 
 jobs:
   build:
